@@ -42,10 +42,15 @@ a {
   font-weight: bold;
 }
 
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
 nav {
-  margin-left: 150px;
-  margin-bottom: 20.5px;
-  padding-top: 30px;
+  max-width: 980px;
+  margin: 0 auto;
+  min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;

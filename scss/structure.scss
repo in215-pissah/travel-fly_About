@@ -48,3 +48,10 @@ a {
   font-family: $GillSans;
   font-weight: bold;
 }
+
+#app {
+  max-width: $content-width;
+  margin: 0 auto;
+  // min-height: 200px;
+  // background-color: coral;
+}

@@ -1,8 +1,7 @@
 nav {
-  margin-left: 150px;
-  margin-bottom: 20.5px;
-  // margin: 0 auto;
-  padding-top: 30px;
+  max-width: $content-width;
+  margin: 0 auto;
+  min-height: $nav-footer-height;
   display: flex;
   align-items: center;
   justify-content: space-between;
