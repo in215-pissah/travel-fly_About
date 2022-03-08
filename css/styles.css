@@ -37,7 +37,8 @@ h6 {
 }
 
 p,
-a {
+a,
+footer {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: bold;
 }
@@ -54,15 +55,17 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 950px;
 }
-nav .links img {
-  margin-right: 300px;
+nav .links .logo {
+  width: 136px;
+  height: 45px;
+  background-color: coral;
 }
 nav .links a {
   text-decoration: none;
   font-size: 15px;
   color: #000000;
+  margin-right: 21px;
 }
 
 hr {
@@ -72,14 +75,18 @@ hr {
 }
 
 footer {
-  width: 1280px;
-  height: 100px;
   background-color: #79addc;
+  height: 100px;
+  color: #ffffff;
+}
+footer .footer-content {
+  max-width: 980px;
+  height: 100%;
   margin: 0 auto;
   color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-top: 5px;
 }
 

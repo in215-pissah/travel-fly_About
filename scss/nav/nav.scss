@@ -5,15 +5,22 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 950px;
+  // width: 950px;
+
   .links {
-    img {
-      margin-right: 300px;
+    .logo {
+      width: 136px;
+      height: 45px;
+      background-color: coral;
     }
+    // img {
+    //   margin-right: 300px;
+    // }
     a {
       text-decoration: none;
       font-size: 15px;
       color: #000000;
+      margin-right: 21px;
     }
   }
 }
@@ -25,13 +32,17 @@ hr {
 }
 
 footer {
-  width: $site-width;
-  height: 100px;
-  background-color: #79addc;
-  margin: 0 auto;
+  background-color: $site-background;
+  height: $nav-footer-height;
   color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-top: 5px;
+  .footer-content {
+    max-width: $content-width;
+    height: 100%;
+    margin: 0 auto;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+  }
 }
