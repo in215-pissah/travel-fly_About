@@ -4,6 +4,7 @@
   .about-header {
     h1 {
       font-size: 60px;
+      // font-family: ProximaNova;
     }
     hr {
       @include nav-black();
@@ -12,8 +13,10 @@
   }
   .about-client-quotes {
     margin-top: 107px;
-    p {
+
+    .client-quote-title {
       font-size: 30px;
+      // font-family: ProximaNova;
     }
     hr {
       @include nav-black();

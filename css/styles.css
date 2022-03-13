@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: ProximaNovaThin;
+  font-family: ProximaNova;
 }
 
 p,
@@ -91,13 +91,13 @@ footer {
   color: #ffffff;
 }
 footer .footer-content {
-  max-width: 1280px;
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   color: #ffffff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 5px;
 }
 
@@ -314,7 +314,7 @@ button {
 .about .about-client-quotes {
   margin-top: 107px;
 }
-.about .about-client-quotes p {
+.about .about-client-quotes .client-quote-title {
   font-size: 30px;
 }
 .about .about-client-quotes hr {
