@@ -6,9 +6,8 @@
       font-size: 60px;
     }
     hr {
+      @include nav-black();
       width: 171px;
-      background-color: #000000;
-      border: 1px solid #000000;
     }
   }
   .about-client-quotes {
@@ -17,8 +16,7 @@
       font-size: 30px;
     }
     hr {
-      background-color: #000;
-      border: 2px solid solid;
+      @include nav-black();
       width: 255px;
     }
     .client-box {

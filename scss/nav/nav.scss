@@ -6,6 +6,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   // width: 950px;
+  bottom: 20.5px;
 
   .links {
     .logo {
@@ -24,11 +25,14 @@ nav {
     }
   }
 }
-hr {
-  margin-left: 150px;
-  margin-bottom: 69.5px;
-  width: 980px;
-  //   border: 2px solid #ffffff;
+.nav-hr-white {
+  @include nav-hr();
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.nav-hr-black {
+  @include nav-hr();
+  @include nav-black();
 }
 
 footer {

@@ -55,6 +55,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  bottom: 20.5px;
 }
 nav .links .logo {
   width: 136px;
@@ -68,10 +69,20 @@ nav .links a {
   margin-right: 21px;
 }
 
-hr {
-  margin-left: 150px;
+.nav-hr-white {
+  margin: 0 auto;
   margin-bottom: 69.5px;
   width: 980px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.nav-hr-black {
+  margin: 0 auto;
+  margin-bottom: 69.5px;
+  width: 980px;
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 
 footer {
@@ -296,9 +307,9 @@ button {
   font-size: 60px;
 }
 .about .about-header hr {
-  width: 171px;
   background-color: #000000;
   border: 1px solid #000000;
+  width: 171px;
 }
 .about .about-client-quotes {
   margin-top: 107px;
@@ -307,8 +318,8 @@ button {
   font-size: 30px;
 }
 .about .about-client-quotes hr {
-  background-color: #000;
-  border: 2px solid solid;
+  background-color: #000000;
+  border: 1px solid #000000;
   width: 255px;
 }
 .about .about-client-quotes .client-box {
