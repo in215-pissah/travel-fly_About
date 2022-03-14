@@ -50,9 +50,20 @@ footer {
   font-weight: bold;
 }
 
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 #app {
   max-width: $content-width;
   margin: 0 auto;
   // min-height: 200px;
   // background-color: coral;
 }
+
+// @media screen and (max-width: 1140px) {
+//   .homePictures {
+//     background-color: red;
+//   }
+// }

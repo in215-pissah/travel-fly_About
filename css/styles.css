@@ -43,6 +43,11 @@ footer {
   font-weight: bold;
 }
 
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 #app {
   max-width: 980px;
   margin: 0 auto;
@@ -72,7 +77,7 @@ nav .links a {
 .nav-hr-white {
   margin: 0 auto;
   margin-bottom: 69.5px;
-  width: 980px;
+  max-width: 980px;
   background-color: #ffffff;
   border: 1px solid #ffffff;
 }
@@ -80,7 +85,7 @@ nav .links a {
 .nav-hr-black {
   margin: 0 auto;
   margin-bottom: 69.5px;
-  width: 980px;
+  max-width: 980px;
   background-color: #000000;
   border: 1px solid #000000;
 }
@@ -103,7 +108,7 @@ footer .footer-content {
 
 .homeBanner {
   height: 500px;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0 auto;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/hero.jpg);
   background-size: cover;
@@ -117,21 +122,19 @@ footer .footer-content {
 }
 .homeBanner h1 {
   font-size: 60px;
+  margin-bottom: 37px;
 }
 .homeBanner .heroText {
-  width: 714px;
   font-size: 20px;
-  margin-left: 283px;
   margin-bottom: 48px;
 }
 
 .homePictures {
-  margin-left: 231px;
-  margin-right: 231px;
+  margin: 0 auto;
   top: -50px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   position: relative;
 }
 

@@ -1,7 +1,8 @@
 @mixin nav-hr {
   margin: 0 auto;
   margin-bottom: 69.5px;
-  width: 980px;
+  max-width: 980px;
+  //   width: 980px;
 }
 @mixin nav-black {
   background-color: #000000;
