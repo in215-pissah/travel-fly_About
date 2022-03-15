@@ -41,17 +41,25 @@
   position: relative;
 }
 
-// @media screen and (min-width: 722px) {
-//   .homePictures {
-//     background-color: red;
-//     margin-left: 231px;
-//     margin-right: 231px;
-//     justify-content: space-around;
-//   }
-// }
+@media screen and (max-width: 612px) {
+  .homePictures {
+    flex-direction: column;
+    .tourPics1,
+    .tourPics2,
+    .tourPics3,
+    .tourPics4,
+    .tourPics5,
+    .tourPics6,
+    .tourPics7,
+    .tourPics8,
+    .tourPics9 {
+      margin-bottom: 55px;
+    }
+  }
+}
 
 form {
-  margin: 40px 231px;
+  margin: 40px;
   //   background-color: red;
   h1 {
     font-size: 60px;

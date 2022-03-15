@@ -138,8 +138,24 @@ footer .footer-content {
   position: relative;
 }
 
+@media screen and (max-width: 612px) {
+  .homePictures {
+    flex-direction: column;
+  }
+  .homePictures .tourPics1,
+.homePictures .tourPics2,
+.homePictures .tourPics3,
+.homePictures .tourPics4,
+.homePictures .tourPics5,
+.homePictures .tourPics6,
+.homePictures .tourPics7,
+.homePictures .tourPics8,
+.homePictures .tourPics9 {
+    margin-bottom: 55px;
+  }
+}
 form {
-  margin: 40px 231px;
+  margin: 40px;
 }
 form h1 {
   font-size: 60px;
