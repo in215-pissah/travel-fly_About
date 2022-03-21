@@ -15,4 +15,4 @@ margin: 0 auto;
 }
 ```
 
-- As shown in the **#app** id I set the margin to **0 auto** to center the contain of the About Page. Doing this also makes the web page more responsive unlike using margin-left and margin-right.
+As shown in the **#app** id I set the margin to **0 auto** to center the contain of the About Page. Doing this also makes the web page more responsive unlike using margin-left and margin-right.
