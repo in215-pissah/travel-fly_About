@@ -2,7 +2,7 @@
 
 ### Web 4 Link
 
-https://in-info-web4.informatics.iupui.edu/~pissah/SP22/homework-five/
+https://in215-pissah.github.io/travel-fly_About/
 
 For this project, the goal was to create the about page for the Travel-fly website. For this page, I used an id named "**app**" for the body of the about page. I also plan to reuse the id name again for the next pages.
 
